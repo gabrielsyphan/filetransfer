@@ -1,0 +1,249 @@
+[
+    {
+        "name": "coffeecode/datalayer",
+        "version": "1.1.7",
+        "version_normalized": "1.1.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/robsonvleite/datalayer.git",
+            "reference": "6a51fa227bba003be11519e7efa8338bc87460f5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/robsonvleite/datalayer/zipball/6a51fa227bba003be11519e7efa8338bc87460f5",
+            "reference": "6a51fa227bba003be11519e7efa8338bc87460f5",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*",
+            "php": "^7.2"
+        },
+        "time": "2020-07-02T17:10:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CoffeeCode\\DataLayer\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Robson V. Leite",
+                "email": "cursos@upinside.com.br",
+                "role": "Developer"
+            }
+        ],
+        "description": "The data layer is a persistent abstraction component of your database that PDO",
+        "homepage": "http://www.upinside.com.br",
+        "keywords": [
+            "Coffeecode",
+            "crud",
+            "database",
+            "delete",
+            "destroy",
+            "pdo",
+            "save",
+            "upinside"
+        ]
+    },
+    {
+        "name": "league/plates",
+        "version": "v4.0.0-alpha",
+        "version_normalized": "4.0.0.0-alpha",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/plates.git",
+            "reference": "f53f4c1fa4bf307d0f3858a348172ff4faf7669a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thephpleague/plates/zipball/f53f4c1fa4bf307d0f3858a348172ff4faf7669a",
+            "reference": "f53f4c1fa4bf307d0f3858a348172ff4faf7669a",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0"
+        },
+        "require-dev": {
+            "eloquent/phony-peridot": "^2.0",
+            "peridot-php/leo": "^1.6",
+            "peridot-php/peridot": "^1.19",
+            "peridot-php/peridot-code-coverage-reporters": "^3.0",
+            "squizlabs/php_codesniffer": "~1.5"
+        },
+        "time": "2018-01-31T07:20:23+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "League\\Plates\\": "src"
+            },
+            "files": [
+                "src/Template/match.php",
+                "src/Extension/Data/data.php",
+                "src/Extension/Path/path.php",
+                "src/Extension/RenderContext/func.php",
+                "src/Extension/RenderContext/render-context.php",
+                "src/Extension/LayoutSections/layout-sections.php",
+                "src/Extension/Folders/folders.php",
+                "src/Util/util.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Reinink",
+                "email": "jonathan@reinink.ca",
+                "role": "Developer"
+            },
+            {
+                "name": "RJ Garcia",
+                "email": "rj@bighead.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
+        "homepage": "http://platesphp.com",
+        "keywords": [
+            "league",
+            "package",
+            "templates",
+            "templating",
+            "views"
+        ]
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "v6.3.0",
+        "version_normalized": "6.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "4a08cf4cdd2c38d12ee2b9fa69e5d235f37a6dcb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/4a08cf4cdd2c38d12ee2b9fa69e5d235f37a6dcb",
+            "reference": "4a08cf4cdd2c38d12ee2b9fa69e5d235f37a6dcb",
+            "shasum": ""
+        },
+        "require": {
+            "ext-ctype": "*",
+            "ext-filter": "*",
+            "ext-hash": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+            "doctrine/annotations": "^1.2",
+            "phpcompatibility/php-compatibility": "^9.3.5",
+            "roave/security-advisories": "dev-latest",
+            "squizlabs/php_codesniffer": "^3.5.6",
+            "yoast/phpunit-polyfills": "^0.2.0"
+        },
+        "suggest": {
+            "ext-mbstring": "Needed to send email in multibyte encoding charset",
+            "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+            "psr/log": "For optional PSR-3 debug logging",
+            "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+            "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+        },
+        "time": "2021-02-19T15:28:08+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PHPMailer\\PHPMailer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1-only"
+        ],
+        "authors": [
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+        "funding": [
+            {
+                "url": "https://github.com/Synchro",
+                "type": "github"
+            }
+        ]
+    },
+    {
+        "name": "stonks/router",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/giovannialo/router.git",
+            "reference": "089d09fe445bfa483f14a2269d1360ac65ddb4d8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/giovannialo/router/zipball/089d09fe445bfa483f14a2269d1360ac65ddb4d8",
+            "reference": "089d09fe445bfa483f14a2269d1360ac65ddb4d8",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "time": "2020-10-08T19:51:39+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Stonks\\Router\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Giovanni A. L. Oliveira",
+                "email": "giovanni.al.oliveira@gmail.com",
+                "homepage": "https://github.com/giovannialo",
+                "role": "Developer"
+            }
+        ],
+        "description": "O Router é um componente de rotas PHP com abstração para MVC. Preparado com verbos RESTful (GET, POST, PUT, PATCH e DELETE), ele trabalha em sua própria camada de forma isolada.",
+        "homepage": "https://github.com/giovannialo/router",
+        "keywords": [
+            "Stonks",
+            "route",
+            "router",
+            "routers",
+            "routes"
+        ]
+    }
+]
