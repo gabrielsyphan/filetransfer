@@ -88,7 +88,7 @@ class Web
                             <p>Usuário: ". $file->user_name ."</p>
                             <p>Nome do arquivo: ". $file->file_name ."</p>
                             <p>Tamanho: ". number_format($file->size / (1 << 20), 2) ."</p>
-                            <p>Data: ". $file->user_name ."</p>
+                            <p>Data: ". $file->created_at ."</p>
                             ",
                     NOME,
                     \EMAIL
